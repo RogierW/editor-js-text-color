@@ -26,14 +26,14 @@ class TextColor {
 
         this.tag = 'SPAN';
         this.class = 'cdx-text-color';
-        this.defaultColor = '#f50400';
+        this.defaultColor = '#2644FF';
     }
 
     render() {
         this.button = document.createElement('button');
 
         this.button.type = 'button';
-        this.button.innerHTML = '<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="palette" class="svg-inline--fa fa-palette fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M204.3 5C104.9 24.4 24.8 104.3 5.2 203.4c-37 187 131.7 326.4 258.8 306.7 41.2-6.4 61.4-54.6 42.5-91.7-23.1-45.4 9.9-98.4 60.9-98.4h79.7c35.8 0 64.8-29.6 64.9-65.3C511.5 97.1 368.1-26.9 204.3 5zM96 320c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm32-128c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm128-64c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm128 64c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32z"></path></svg>';
+        this.button.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 24 24" style=" fill:currentColor;" height="16" width="16">    <path d="M 12 2 C 11.398 2 10.859437 2.3725469 10.648438 2.9355469 L 5.4746094 16.734375 C 5.2456094 17.346375 5.6975625 18 6.3515625 18 C 6.7415625 18 7.0915156 17.758578 7.2285156 17.392578 L 8.875 13 L 15.125 13 L 16.771484 17.392578 C 16.908484 17.757578 17.258437 18 17.648438 18 C 18.302437 18 18.754391 17.346375 18.525391 16.734375 L 13.351562 2.9355469 C 13.140562 2.3725469 12.602 2 12 2 z M 12 4.6679688 L 14.375 11 L 9.625 11 L 12 4.6679688 z M 5.9355469 20 C 5.4185469 20 5 20.4195 5 20.9375 L 5 21.064453 C 5 21.581453 5.4185469 22 5.9355469 22 L 18.064453 22 C 18.581453 22 19 21.5805 19 21.0625 L 19 20.935547 C 19 20.418547 18.5805 20 18.0625 20 L 5.9355469 20 z"></path></svg>';
         this.button.classList.add(this.api.styles.inlineToolButton);
 
         return this.button;

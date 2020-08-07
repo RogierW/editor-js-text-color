@@ -1,3 +1,15 @@
 .cdx-text-color {
     color: inherit;
 }
+
+input[type="color"]{
+    height: 25px;
+    border: none;
+    padding: 0;
+    width: 45px;
+    border-top-right-radius: 10px;
+    overflow: hidden;
+    border-bottom-left-radius: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
